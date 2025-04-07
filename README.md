@@ -28,3 +28,10 @@ La propiedad **display:fles** o **display:inline-flex** nos permite crear un con
 - Pocicionamiento de las lineas de los elementos flexibles en el eje transversal
   - **align-content: flex-start | flex-end | center | space-between | space-around | stretch**
   - por defecto: flex-start
+- Orden de los elementos flexibles
+  - **order: number**
+  - por defecto: 0
+- Tamaño inicial de los elementos flexibles
+  - **flex-basis: auto | number**
+- Tamaño Final de los elementos flexibles(Factor de crecimiento)
+  - **flex-grow: number**

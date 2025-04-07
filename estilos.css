@@ -1,9 +1,9 @@
 .contenedor{
     display: flex;
     flex-direction:row;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    align-items: flex-start;
     height: 700px;
     background-color: rgba(0, 0, 0, 0.5);
     align-content: center;
@@ -11,43 +11,52 @@
 
 .caja-1{
     background-color: blue;
-    width: 500px;
-    height: 80px;
     font-size: 85px;
     color : white;
+    flex-basis: 900px;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex:900px 1 1;
 }
 .caja-2{
     background-color: red;
-    width: 500px;
-    height: 80px;
     font-size: 85px;
     color : white;
+    flex-basis: 900px;
+    flex-grow: 2;
+    flex-shrink: 2;
+    flex:900px 1 1;
 }
 .caja-3{
     background-color: orange;
-    width: 500px;
-    height: 80px;
     font-size: 85px;
     color : white;
+    flex-basis: 900px;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex:900px 1 1;
 }
 .caja-4{
     background-color: purple;
-    width: 500px;
-    height: 80px;
     font-size: 85px;
     color : white;
+    flex-basis: 900px;
+    flex-shrink: 1;
+    flex:900px 1 1;
 }
 .caja-5{
     background-color: lightcoral;
-    width: 500px;
-    height: 80px;
     font-size: 85px;
     color : white;
+    flex-basis: 900px;
+    flex-shrink: 1;
+    flex:900px 1 1;
 }
 .caja-6{
     background-color: yellow;
-    width: 500px;
-    height: 80px;
     font-size: 85px;
     color : white;
+    flex-basis: 900px;
+    flex-shrink: 1;
+    flex:900px 1 1;
 }
